@@ -2,8 +2,8 @@
 <img src="https://sjredwings-cdn.fxbrt.com/downloads/icons/os_ticket_sj_logo.png"/>
 </p>
 
-<h1>osTicket - The Ticket Lifecycle</h1>
-This section demonstrates the day-to-day use of the help desk. I walk through how a ticket is created, prioritized by an agent, and eventually resolved to ensure the user's problem is fixed.<br />
+<h1>Active Directory & User Management</h1>
+This project shows how I set up and managed a company’s "Digital ID Office." I used Active Directory to create user accounts, organize them into departments, and manage their access to the company's network.<br />
 
 
 
