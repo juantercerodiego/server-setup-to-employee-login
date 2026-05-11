@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://sjredwings-cdn.fxbrt.com/downloads/icons/os_ticket_sj_logo.png"/>
+<img width="750" height="340" alt="what-is-active-directory-and-why-is-it-used" src="https://github.com/user-attachments/assets/a7707de8-8111-4851-a1d1-d536d941249a" />
 </p>
 
 <h1>Active Directory & User Management</h1>
