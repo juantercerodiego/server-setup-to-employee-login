@@ -10,22 +10,23 @@ This project shows how I set up and managed a company’s "Digital ID Office." I
 
 <h2>Environments and Technologies Used</h2>
 
-- **Microsoft Azure** (Virtual Machines/Computer)
+- **Microsoft Azure** (Virtual Machines)
 - **Remote Desktop** (RDP)
-- **osTicket** (Helpdesk Software)
-- **HeidiSQL** (To see the data update in the background)
-- **Web Browser** (Chrome or Edge)
+- **Active Directory Domain Services** (AD DS)
+- **Windows Server 2022** (The Domain Controller)
+- **Remote Desktop** (RDP)
 
 <h2>Operating Systems Used </h2>
 
-- Windows 11 
+- **Windows Server 2022** (The "Brain" of the network)
+- **Windows 11** (The Employee Workstation)
 
 <h2>List of Prerequisites</h2>
 
-- **osTicket Installed**: The server must be live and reachable.
-- **Admin/Agent Account**: Created during the installation phase.
-- **Test User Account**: A dummy account to act as the "customer" with a problem.
-<h2>The Ticket Lifecycle Steps</h2>
+- **A Domain Controller:** A server acting as the central hub for the network.
+- **Network Connection:** Ensuring the employee computer can "see" and talk to the server.
+- **Admin Access:** Permission to create and delete users.
+<h2>Management Steps</h2>
 <h2>Step 1: The Request (Creating a Ticket)</h2>
 
 <p>
