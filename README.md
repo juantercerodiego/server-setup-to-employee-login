@@ -27,7 +27,7 @@ This project shows how I set up and managed a company’s "Digital ID Office." I
 - **Network Connection:** Ensuring the employee computer can "see" and talk to the server.
 - **Admin Access:** Permission to create and delete users.
 <h2>Management Steps</h2>
-<h2>Step 1: The Request (Creating a Ticket)</h2>
+<h2>Step 1: Building the "Org Chart" (Organizational Units)</h2>
 
 <p>
 <img width="927" height="615" alt="image" src="https://github.com/user-attachments/assets/cabfd231-293a-4f8b-b349-04b105e4e304" />
@@ -36,10 +36,10 @@ This project shows how I set up and managed a company’s "Digital ID Office." I
 
 </p>
 <p>
-Every issue starts with a request. A user fills out a simple form explaining what’s wrong like("I forgot my password"). The system then assigns a unique ticket number so the request is never lost or forgotten.
+Before adding people, you need a way to organize them. I created "Folders" (Organizational Units) that match the company's departments. This makes it easy to apply rules to a whole group of people at once instead of one by one.
 </p>
 <br />
-<h2>Step 2: The Hand-off (Assignment) </h2>
+<h2>Step 2: Issuing Digital IDs (Creating New Users) </h2>
 <p>
 <img width="1299" height="800" alt="Screenshot 2026-05-11 113026" src="https://github.com/user-attachments/assets/d2dab1b5-1f6b-4f64-b95a-fdaffd16b113" />
 </p>
