@@ -31,7 +31,7 @@ This project shows how I set up and managed a company’s "Digital ID Office." I
 <h2>Step 1: Building the Server (The Domain Controller)</h2>
 
 <p>
-<img width="1001" height="500" alt="step 1" src="https://github.com/user-attachments/assets/5d0d973a-0b01-443d-a542-1eaca247c96a" />
+<img width="1001" height="550" alt="step 1" src="https://github.com/user-attachments/assets/5d0d973a-0b01-443d-a542-1eaca247c96a" />
 
 
 
@@ -43,7 +43,8 @@ Before you can manage a company, you need a central hub. I set up a Windows Serv
 <br />
 <h2>Step 2: Building the "Org Chart" (Organizational Units) </h2>
 <p>
-<img width="1299" height="800" alt="Screenshot 2026-05-11 113026" src="https://github.com/user-attachments/assets/d2dab1b5-1f6b-4f64-b95a-fdaffd16b113" />
+<img width="783" height="500" alt="Screenshot 2026-05-13 115239" src="https://github.com/user-attachments/assets/269985ec-2a11-4ad2-a58f-f8af5521ac7c" />
+
 </p>
 <p>
 To keep things tidy, I built an "Org Chart" inside the system. By creating these folders (Organizational Units), I can group employees by their department, making it much easier to manage their permissions and access later on.
