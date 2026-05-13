@@ -63,7 +63,7 @@ This is where I create the actual employee accounts. I set up unique usernames a
 <br />
 <h2>Step 4: Joining the Network (Connecting the Workstation)</h2>
 <p>
-<img width="623" height="646" alt="Screenshot 2026-05-13 123209" src="https://github.com/user-attachments/assets/f2ffb586-702b-463e-9161-3ca84411c913" />
+<img width="623" height="570" alt="Screenshot 2026-05-13 123209" src="https://github.com/user-attachments/assets/f2ffb586-702b-463e-9161-3ca84411c913" />
 
 
 
