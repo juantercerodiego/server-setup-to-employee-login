@@ -52,7 +52,8 @@ To keep things tidy, I built an "Org Chart" inside the system. By creating these
 <br />
 <h2>Step 3: Issuing Digital IDs (User Management)</h2>
 <p>
-<img width="946" height="550" alt="Screenshot 2026-05-11 115129" src="https://github.com/user-attachments/assets/aebc1f03-8b13-4599-8a61-b2b0aae9603a" />
+<img width="808" height="548" alt="Screenshot 2026-05-13 120309" src="https://github.com/user-attachments/assets/5f565de1-eace-4bd0-bdf0-4ee7670fff02" />
+
 
 
 </p>
