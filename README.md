@@ -31,7 +31,8 @@ This project shows how I set up and managed a company’s "Digital ID Office." I
 <h2>Step 1: Building the Server (The Domain Controller)</h2>
 
 <p>
-<img width="927" height="615" alt="image" src="https://github.com/user-attachments/assets/cabfd231-293a-4f8b-b349-04b105e4e304" />
+<img width="1001" height="500" alt="step 1" src="https://github.com/user-attachments/assets/5d0d973a-0b01-443d-a542-1eaca247c96a" />
+
 
 
 
