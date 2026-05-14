@@ -14,7 +14,6 @@ This project shows how I set up and managed a company’s "Digital ID Office." I
 - **Remote Desktop** (RDP)
 - **Active Directory Domain Services** (AD DS)
 - **Windows Server 2022** (The Domain Controller)
-- **Remote Desktop** (RDP)
 
 <h2>Operating Systems Used </h2>
 
