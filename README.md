@@ -57,10 +57,21 @@ This project is all about setting up the central "brain" of a company's network.
 
 </p>
 <p>
-To keep things tidy, I built an "Org Chart" inside the system. By creating these folders (Organizational Units), I can group employees by their department, making it much easier to manage their permissions and access later on.
+  
+**With the server upgraded, I needed to build out the company's "org chart" using folders called Organizational Units (OUs) to keep the departments separated.**
+  
+**1:** On the rebooted server, went to Server Manager -> Tools -> Active Directory Users and Computers.
+  
+**2:** Right-clicked my domain name, went to New -> Organizational Unit.
+
+**3:** Created a main folder named _Employees.
+
+**4:** Inside that new folder, I right-clicked again to make sub-folders for different departments: _Admins, Accounting, and IT.
+
+
 </p>
 <br />
-<h2>Step 3: Issuing Digital IDs (User Management)</h2>
+<h2>Step 3: Mass-Creating Users with a PowerShell Script</h2>
 <p>
 <img width="808" height="548" alt="Screenshot 2026-05-13 120309" src="https://github.com/user-attachments/assets/5f565de1-eace-4bd0-bdf0-4ee7670fff02" />
 
@@ -68,7 +79,16 @@ To keep things tidy, I built an "Org Chart" inside the system. By creating these
 
 </p>
 <p>
-This is where I create the actual employee accounts. I set up unique usernames and temporary passwords so new hires can log into the network securely.
+  
+**Instead of spending days manually typing in names and creating accounts one by one, I used automation to spin up hundreds of dummy accounts in seconds**
+  
+**1:** Opened PowerShell ISE as an Administrator on the server.
+  
+**2:** Opened the lab's user-generation script that pulls names from a .csv file and assigns them to our _Employees folder.
+
+**3:** Ran the script and watched the host screen loop through and output the newly generated usernames.
+
+**4:** Went back to Active Directory Users and Computers and refreshed the folders to verify all the new employees were sitting in their proper spots.
 </p>
 <br />
 <h2>Step 4: Joining the Network (Connecting the Workstation)</h2>
