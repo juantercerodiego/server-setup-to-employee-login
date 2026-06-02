@@ -2,7 +2,10 @@
 <img width="750" height="340" alt="what-is-active-directory-and-why-is-it-used" src="https://github.com/user-attachments/assets/a7707de8-8111-4851-a1d1-d536d941249a" />
 </p>
 
-<h1>Active Directory & User Management</h1>
+<h1>Active Directory & User Management (Azure): From Server Setup to Employee Login</h1>
+
+**Quick Note:** This project builds on top of my cloud network setup. If you want to see how I configured the virtual machines and networks first, check out that guide here: [Link to your Azure VM Setup Repo].
+</p>
 This project is all about setting up the central "brain" of a company's network. I deployed a Windows Server in Azure, turned it into a Domain Controller, created organized departments, used a PowerShell script to bulk-create thousands of employee accounts, and finally linked a Windows 10 workstation to the domain to test a user login.<br />
 
 
