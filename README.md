@@ -91,7 +91,7 @@ This project is all about setting up the central "brain" of a company's network.
 **4:** Went back to Active Directory Users and Computers and refreshed the folders to verify all the new employees were sitting in their proper spots.
 </p>
 <br />
-<h2>Step 4: Joining the Network (Connecting the Workstation)</h2>
+<h2>Step 4: Connecting the Windows 10 Workstation to the Domain</h2>
 <p>
 <img width="623" height="570" alt="Screenshot 2026-05-13 123209" src="https://github.com/user-attachments/assets/f2ffb586-702b-463e-9161-3ca84411c913" />
 
@@ -99,7 +99,18 @@ This project is all about setting up the central "brain" of a company's network.
 
 </p>
 <p>
-The final step is "introducing" the employee's computer to the server. Once the workstation is joined to the domain, the server is officially in charge. This allows any authorized employee to sit down at that computer and log in with their company ID.
+  
+**Next, I had to "introduce" the employee's computer to the server so the domain could take control of it.**
+  
+**1:** Switched over and logged into the Windows 10 Client VM.
+  
+**2:** Opened network adapter settings, changed the Preferred DNS Server to match the Private IP Address of my Windows Server, and saved it. (This points the client directly to our Domain Controller).
+
+**3:** Opened the Windows menu, searched for About your PC, and clicked Advanced system settings.
+
+**4:** Went to the Computer Name tab, clicked Change..., toggled the member settings from Workgroup to Domain, typed my domain name, and hit OK.
+
+**5:** Logged in with the Server’s Admin credentials when the prompt popped up, got the "Welcome to the domain" message, and restarted the PC.
 </p>
 <br />
 
