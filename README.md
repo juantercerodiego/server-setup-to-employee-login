@@ -3,7 +3,7 @@
 </p>
 
 <h1>Active Directory & User Management</h1>
-This project shows how I set up and managed a company’s "Digital ID Office." I used Active Directory to create user accounts, organize them into departments, and manage their access to the company's network.<br />
+This project is all about setting up the central "brain" of a company's network. I deployed a Windows Server in Azure, turned it into a Domain Controller, created organized departments, used a PowerShell script to bulk-create thousands of employee accounts, and finally linked a Windows 10 workstation to the domain to test a user login.<br />
 
 
 
@@ -13,21 +13,21 @@ This project shows how I set up and managed a company’s "Digital ID Office." I
 - **Microsoft Azure** (Virtual Machines)
 - **Remote Desktop** (RDP)
 - **Active Directory Domain Services** (AD DS)
-- **Windows Server 2022** (The Domain Controller)
+- **Powershell** (For Automation Scripting)
 
 <h2>Operating Systems Used </h2>
 
 - **Windows Server 2022** (The "Brain" of the network)
 - **Windows 11** (The Employee Workstation)
 
-<h2>List of Prerequisites</h2>
+<h2>What You Need Before Starting (Prerequisites)</h2>
 
-- **Step 1:** Building the Server (The Domain Controller)
-- **Step 2:** Building the "Org Chart" (Organizational Units)
-- **Step 3:** Issuing Digital IDs (User Management)
-- **Step 4:** Joining the Network (Connecting the Workstation)
-<h2>Deployment and Configuration Steps</h2>
-<h2>Step 1: Building the Server (The Domain Controller)</h2>
+- **An Azure Account:** You need an active subscription to build the virtual machines.
+- **A Virtual Network (VNet):** A configured digital space in Azure so your machines can communicate.
+- **A Windows Server VM:** This acts as the backbone of the project where Active Directory is installed.
+- **A Windows 11 Client VM:** A separate machine to act as the employee workstation for testing.
+<h2>How I Built It (Step-by-Step)</h2>
+<h2>Step 1: Installing Active Directory & Promoting the Server</h2>
 
 <p>
 <img width="1001" height="550" alt="step 1" src="https://github.com/user-attachments/assets/5d0d973a-0b01-443d-a542-1eaca247c96a" />
@@ -37,10 +37,21 @@ This project shows how I set up and managed a company’s "Digital ID Office." I
 
 </p>
 <p>
-Before you can manage a company, you need a central hub. I set up a Windows Server in Azure and promoted it to a "Domain Controller." This makes it the master computer that holds all the rules and account info for the entire organization.
+  
+**Before managing any users, I needed to turn my basic Windows Server into a master Domain Controller.**
+  
+**1:** Logged into the Windows Server VM using Remote Desktop.
+  
+**2:** Opened Server Manager, clicked Add Roles and Features, and clicked Next until reaching Server Roles.
+
+**3:** Checked the box for Active Directory Domain Services (AD DS), accepted the required features, and hit Install.
+
+**4:** Once the install finished, I clicked the Yellow Notification Flag at the top right of the screen and selected Promote this server to a domain controller.
+
+**5:** Chose Add a new forest, named my root domain (like mydomain.com), set a recovery password, and let the wizard finish and reboot the server.
 </p>
 <br />
-<h2>Step 2: Building the "Org Chart" (Organizational Units) </h2>
+<h2>Step 2: Creating the Org Chart (Organizational Units) </h2>
 <p>
 <img width="783" height="500" alt="Screenshot 2026-05-13 115239" src="https://github.com/user-attachments/assets/269985ec-2a11-4ad2-a58f-f8af5521ac7c" />
 
