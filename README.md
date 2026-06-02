@@ -111,6 +111,28 @@ This project is all about setting up the central "brain" of a company's network.
 **4:** Went to the Computer Name tab, clicked Change..., toggled the member settings from Workgroup to Domain, typed my domain name, and hit OK.
 
 **5:** Logged in with the Server’s Admin credentials when the prompt popped up, got the "Welcome to the domain" message, and restarted the PC.
+
 </p>
 <br />
+<h2>Step 5: Testing the Employee Login</h2>
+<p>
+<img width="623" height="570" alt="Screenshot 2026-05-13 123209" src="https://github.com/user-attachments/assets/f2ffb586-702b-463e-9161-3ca84411c913" />
+
+
+
+</p>
+<p>
+  
+**The final test to prove the setup works perfectly is logging into the client computer using one of the random user accounts created by the script.**
+  
+**1:** On the restarted Windows 10 login screen, clicked Other User in the bottom left corner.
+  
+**2:** Typed in the username of one of the script-created users (like jdoe) and their password.
+
+**3:** Opened the Windows menu, searched for About your PC, and clicked Advanced system settings.
+
+**4:** Verified that the command returned mydomain\jdoe, proving the workstation is fully communicating with our cloud Active Directory server.
+
+
+
 
