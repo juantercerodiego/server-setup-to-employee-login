@@ -98,6 +98,9 @@ This project is all about setting up the central "brain" of a company's network.
 **3:** Run the script and watch the host screen loop through and output the newly generated usernames.
 
 **4:** Went back to Active Directory Users and Computers and refreshed the folders to verify all the new employees were sitting in their proper spots.
+<img width="982" height="500" alt="Screenshot 2026-06-10 115839" src="https://github.com/user-attachments/assets/a2095584-42dd-405b-b758-66da5f8c8948" />
+
+
 </p>
 <br />
 <h2>Step 4: Connecting the Windows 10 Workstation to the Domain</h2>
