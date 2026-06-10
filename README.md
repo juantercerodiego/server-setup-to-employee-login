@@ -90,7 +90,7 @@ This project is all about setting up the central "brain" of a company's network.
   
 **Instead of spending days manually typing in names and creating accounts one by one, I used automation to spin up hundreds of dummy accounts in seconds**
   
-**1:** Opened PowerShell ISE as an Administrator on the server.
+**1:** Opened PowerShell ISE as an Administrator on the server. ( Windows Server )
   
 **2:** Opened the lab's user-generation script that pulls names from a .csv file and assigns them to our _Employees folder.
 
