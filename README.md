@@ -33,7 +33,8 @@ This project is all about setting up the central "brain" of a company's network.
 <h2>Step 1: Installing Active Directory & Promoting the Server</h2>
 
 <p>
-<img width="1001" height="550" alt="step 1" src="https://github.com/user-attachments/assets/5d0d973a-0b01-443d-a542-1eaca247c96a" />
+<img width="1031" height="600" alt="Screenshot 2026-06-09 103049" src="https://github.com/user-attachments/assets/7a2f0987-93d2-498e-ad06-71673154c484" />
+
 
 
 
