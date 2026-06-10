@@ -1,5 +1,6 @@
 <p align="center">
-<img width="750" height="340" alt="what-is-active-directory-and-why-is-it-used" src="https://github.com/user-attachments/assets/a7707de8-8111-4851-a1d1-d536d941249a" />
+<img width="750" height="340" alt="what-is-active-directory-and-why-is-it-used" src="https://github.com/user-attachments/assets/b4bd93fc-9939-498e-b2dd-2ec1fa64b737" />
+
 </p>
 
 <h1>Active Directory & User Management (Azure): From Server Setup to Employee Login</h1>
