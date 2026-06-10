@@ -115,9 +115,9 @@ This project is all about setting up the central "brain" of a company's network.
   
 **Next, I had to "introduce" the employee's computer to the server so the domain could take control of it.**
   
-**1:** Switched over and logged into the Windows 10 Client VM.
+**1:** Set Client-VM’s DNS settings to Server-VM’s Private IP address.
   
-**2:** Opened network adapter settings, changed the Preferred DNS Server to match the Private IP Address of my Windows Server, and saved it. (This points the client directly to our Domain Controller).
+**2:** Go to Azure Portal > Client-VM > Network Interface > DNS servers > Custom > Add Server Private IP Address.
 
 **3:** Opened the Windows menu, searched for About your PC, and clicked Advanced system settings.
 
