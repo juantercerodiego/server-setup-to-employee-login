@@ -106,7 +106,8 @@ This project is all about setting up the central "brain" of a company's network.
 <br />
 <h2>Step 4: Connecting the Windows 10 Workstation to the Domain</h2>
 <p>
-<img width="623" height="570" alt="Screenshot 2026-05-13 123209" src="https://github.com/user-attachments/assets/f2ffb586-702b-463e-9161-3ca84411c913" />
+<img width="903" height="500" alt="Screenshot 2026-06-10 163233" src="https://github.com/user-attachments/assets/84e78148-ccee-4646-afb2-8881f647aa70" />
+
 
 
 
@@ -117,7 +118,7 @@ This project is all about setting up the central "brain" of a company's network.
   
 **1:** Set Client-VM’s DNS settings to Server-VM’s Private IP address.
   
-**2:** Go to Azure Portal > Client-VM > Network Interface > DNS servers > Custom > Add Server Private IP Address.
+**2:** Go to Azure Portal > Client-VM > Networking > Network Interface > Settings > DNS servers > Custom > Add Server's Private IP Address.
 
 **3:** Opened the Windows menu, searched for About your PC, and clicked Advanced system settings.
 
