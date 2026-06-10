@@ -94,7 +94,7 @@ This project is all about setting up the central "brain" of a company's network.
   
 **2:** Opened the lab's user-generation script that pulls names from a .csv file and assigns them to our _Employees folder.
 
-**3:** Ran the script and watched the host screen loop through and output the newly generated usernames.
+**3:** Run the script and watch the host screen loop through and output the newly generated usernames.
 
 **4:** Went back to Active Directory Users and Computers and refreshed the folders to verify all the new employees were sitting in their proper spots.
 </p>
