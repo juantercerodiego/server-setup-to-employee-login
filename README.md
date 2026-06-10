@@ -60,7 +60,7 @@ This project is all about setting up the central "brain" of a company's network.
 <br />
 <h2>Step 2: Creating the Org Chart (Organizational Units) </h2>
 <p>
-<img width="783" height="500" alt="Screenshot 2026-05-13 115239" src="https://github.com/user-attachments/assets/269985ec-2a11-4ad2-a58f-f8af5521ac7c" />
+<img width="941" height="500" alt="2A" src="https://github.com/user-attachments/assets/90e0d106-6f43-4769-a3de-0d68dacf4707" />
 
 </p>
 <p>
@@ -74,6 +74,7 @@ This project is all about setting up the central "brain" of a company's network.
 **3:** Created a main folder named _Employees.
 
 **4:** Inside that new folder, I right-clicked again to make sub-folders for different departments: _Admins, Accounting, and IT.
+<img width="952" height="500" alt="2B" src="https://github.com/user-attachments/assets/0f13a425-8c84-4e0f-a977-bd3b8b3d1669" />
 
 
 </p>
