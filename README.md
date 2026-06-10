@@ -53,6 +53,9 @@ This project is all about setting up the central "brain" of a company's network.
 **4:** Once the install finished, I clicked the Yellow Notification Flag at the top right of the screen and selected Promote this server to a domain controller.
 
 **5:** Chose Add a new forest, named my root domain (like mydomain.com), set a recovery password, and let the wizard finish and reboot the server.
+
+<img width="1318" height="600" alt="Screenshot 2026-06-09 103932" src="https://github.com/user-attachments/assets/30e58e1b-4eba-4f5f-aa88-11bc6bc1a2d5" />
+
 </p>
 <br />
 <h2>Step 2: Creating the Org Chart (Organizational Units) </h2>
