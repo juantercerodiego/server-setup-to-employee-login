@@ -81,7 +81,8 @@ This project is all about setting up the central "brain" of a company's network.
 <br />
 <h2>Step 3: Mass-Creating Users with a PowerShell Script</h2>
 <p>
-<img width="808" height="548" alt="Screenshot 2026-05-13 120309" src="https://github.com/user-attachments/assets/5f565de1-eace-4bd0-bdf0-4ee7670fff02" />
+<img width="1285" height="660" alt="Screenshot 2026-06-10 115024" src="https://github.com/user-attachments/assets/d3e4bf3a-18ed-43b7-a85a-5357960d4ac0" />
+
 
 
 
