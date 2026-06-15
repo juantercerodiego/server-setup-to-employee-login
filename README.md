@@ -151,5 +151,6 @@ This project is all about setting up the central "brain" of a company's network.
 **4:** Open Command Prompt, run (**whoami**), and verified that the command returned ( mydomain\dogi.cug), proving the workstation is fully communicating with our cloud Active Directory server.
 
 
+<img width="862" height="545" alt="Screenshot 2026-06-15 121130" src="https://github.com/user-attachments/assets/f94dc9e3-d50a-4039-ba68-b89532a86397" />
 
 
