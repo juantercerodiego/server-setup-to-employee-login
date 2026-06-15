@@ -132,7 +132,8 @@ This project is all about setting up the central "brain" of a company's network.
 <br />
 <h2>Step 5: Testing the Employee Login</h2>
 <p>
-<img width="623" height="570" alt="Screenshot 2026-05-13 123209" src="https://github.com/user-attachments/assets/f2ffb586-702b-463e-9161-3ca84411c913" />
+<img width="1077" height="600" alt="Screenshot 2026-06-15 120048" src="https://github.com/user-attachments/assets/1c98b8b9-e855-4c18-8d8e-6205bff34562" />
+
 
 
 
@@ -141,13 +142,13 @@ This project is all about setting up the central "brain" of a company's network.
   
 **The final test to prove the setup works perfectly is logging into the client computer using one of the random user accounts created by the script.**
   
-**1:** On the restarted Windows 10 login screen, clicked Other User in the bottom left corner.
+**1:** Open the Remote Desktop Connection app on  main computer and entered the Windows 11 Client VM's public IP address.
   
-**2:** Typed in the username of one of the script-created users (like jdoe) and their password.
+**2:** When prompted for credentials, typed in the username of one of the script-created users (like mydomain\dogi.cug) and their password to initiate the login.
 
-**3:** Opened the Windows menu, searched for About your PC, and clicked Advanced system settings.
+**3:** Opened the Windows menu, searched for Command Prompt.
 
-**4:** Verified that the command returned mydomain\jdoe, proving the workstation is fully communicating with our cloud Active Directory server.
+**4:** Open Command Prompt, run (**whoami**), and verified that the command returned ( mydomain\dogi.cug), proving the workstation is fully communicating with our cloud Active Directory server.
 
 
 
