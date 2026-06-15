@@ -126,6 +126,8 @@ This project is all about setting up the central "brain" of a company's network.
 
 **5:** Logged in with the Server’s Admin credentials when the prompt popped up, got the "Welcome to the domain" message, and restarted the PC.
 
+<img width="660" height="550" alt="Screenshot 2026-06-11 120848" src="https://github.com/user-attachments/assets/d00d803e-e24f-445a-b5e0-d1571428b7ee" />
+
 </p>
 <br />
 <h2>Step 5: Testing the Employee Login</h2>
