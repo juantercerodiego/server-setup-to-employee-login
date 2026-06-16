@@ -74,7 +74,7 @@ This project is all about setting up the central "brain" of a company's network.
 
 **3:** Created a main folder named _Employees.
 
-**4:** Inside that new folder, I right-clicked again to make sub-folders for different departments: _ADMINS, _ACCOUNTING, and _IT.
+**4:** I also went ahead and made folders for different departments : _ADMINS, _ACCOUNTING, and _IT.
 <img width="952" height="500" alt="2B" src="https://github.com/user-attachments/assets/0f13a425-8c84-4e0f-a977-bd3b8b3d1669" />
 
 
