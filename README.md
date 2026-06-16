@@ -153,7 +153,7 @@ while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
 
 </p>
 <br />
-<h2>Step 4: Connecting the Windows 10 Workstation to the Domain</h2>
+<h2>Step 4: Connecting the Windows 11 Workstation to the Domain</h2>
 <p>
 <img width="903" height="500" alt="Screenshot 2026-06-10 163233" src="https://github.com/user-attachments/assets/84e78148-ccee-4646-afb2-8881f647aa70" />
 
