@@ -94,7 +94,7 @@ This project is all about setting up the central "brain" of a company's network.
   
 **1:** Opened PowerShell ISE as an Administrator on the server. ( Windows Server )
   
-**2:** Opened the lab's user-generation script that pulls names from a .csv file and assigns them to our _Employees folder.
+**2:** Opened the user-generation script designed to automatically build random names and assign them to our _Employees folder.
 
 #### **The Automation Script Used:**
 ```powershell
