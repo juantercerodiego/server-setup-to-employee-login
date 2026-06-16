@@ -181,7 +181,8 @@ while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
 <br />
 <h2>Step 5: Testing the Employee Login</h2>
 <p>
-<img width="1077" height="600" alt="Screenshot 2026-06-15 120048" src="https://github.com/user-attachments/assets/1c98b8b9-e855-4c18-8d8e-6205bff34562" />
+<img width="1077" height="697" alt="Screenshot 2026-06-15 120048" src="https://github.com/user-attachments/assets/fa5ad7fd-843a-42f6-8c91-c31f0257d04b" />
+
 
 
 
