@@ -47,13 +47,13 @@ This project is all about setting up the central "brain" of a company's network.
   
 **1:** Logged into the Windows Server VM using Remote Desktop.
   
-**2:** Opened Server Manager, clicked Add Roles and Features, and clicked Next until reaching Server Roles.
+**2:** Opened Server Manager, clicked **Add Roles and Features**, and clicked Next until reaching Server Roles.
 
-**3:** Checked the box for Active Directory Domain Services (AD DS), accepted the required features, and hit Install.
+**3:** Checked the box for **Active Directory Domain Services (AD DS)**, accepted the required features, and hit Install.
 
-**4:** Once the install finished, I clicked the Yellow Notification Flag at the top right of the screen and selected Promote this server to a domain controller.
+**4:** Once the install finished, I clicked the **Yellow Notification Flag** at the top right of the screen and selected Promote this server to a domain controller.
 
-**5:** Chose Add a new forest, named my root domain (like mydomain.com), set a recovery password, and let the wizard finish and reboot the server.
+**5:** Choose **Add a new forest**, named my root domain (like mydomain.com), set a recovery password, and let the wizard finish and reboot the server.
 
 <img width="1318" height="600" alt="Screenshot 2026-06-09 103932" src="https://github.com/user-attachments/assets/30e58e1b-4eba-4f5f-aa88-11bc6bc1a2d5" />
 
@@ -68,13 +68,13 @@ This project is all about setting up the central "brain" of a company's network.
   
 **With the server upgraded, I needed to build out the company's "org chart" using folders called Organizational Units (OUs) to keep the departments separated.**
   
-**1:** On the rebooted server, went to Server Manager -> Tools -> Active Directory Users and Computers.
+**1:** On the rebooted server, went to **Server Manager** -> **Tools** -> **Active Directory Users and Computers**.
   
-**2:** Right-clicked my domain name, went to New -> Organizational Unit.
+**2:** Right-clicked my domain name, went to **New** -> **Organizational Unit**.
 
-**3:** Created a main folder named _Employees.
+**3:** Created a main folder named **`_Employees`**.
 
-**4:** I also went ahead and made folders for different departments : _ADMINS, _ACCOUNTING, and _IT.
+**4:** I also went ahead and made folders for different departments : **`_ADMINS`**, **`_ACCOUNTING`**, and **`_IT`**.
 <img width="952" height="500" alt="2B" src="https://github.com/user-attachments/assets/0f13a425-8c84-4e0f-a977-bd3b8b3d1669" />
 
 
@@ -92,9 +92,9 @@ This project is all about setting up the central "brain" of a company's network.
   
 **Instead of spending days manually typing in names and creating accounts one by one, I used automation to spin up hundreds of dummy accounts in seconds**
   
-**1:** Opened PowerShell ISE as an Administrator on the server. ( Windows Server )
+**1:** Opened **PowerShell ISE** as an Administrator on the server. ( Windows Server )
   
-**2:** Opened the user-generation script designed to automatically build random names and assign them to our _Employees folder.
+**2:** Opened the user-generation script designed to automatically build random names and assign them to our `_Employees` folder.
 
 #### **The Automation Script Used:**
 ```powershell
@@ -145,15 +145,15 @@ while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
 ```
 
 
-**3:** Run the script and watch the host screen loop through and output the newly generated usernames.
+**3:** Ran the script and watch the host screen loop through and output the newly generated usernames.
 
-**4:** Went back to Active Directory Users and Computers and refreshed the folders to verify all the new employees were sitting in their proper spots.
+**4:** Went back to **Active Directory Users and Computers** and refreshed the folders to verify all the new employees were sitting in their proper spots.
 <img width="982" height="500" alt="Screenshot 2026-06-10 115839" src="https://github.com/user-attachments/assets/a2095584-42dd-405b-b758-66da5f8c8948" />
 
 
 </p>
 <br />
-<h2>Step 4: Connecting the Windows 11 Workstation to the Domain</h2>
+<h2>Step 4: Connecting the Windows 11 Workstation to the Domain.</h2>
 <p>
 <img width="903" height="500" alt="Screenshot 2026-06-10 163233" src="https://github.com/user-attachments/assets/84e78148-ccee-4646-afb2-8881f647aa70" />
 
@@ -165,15 +165,15 @@ while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
   
 **Next, I had to "introduce" the employee's computer to the server so the domain could take control of it.**
   
-**1:** Set Client-VM’s DNS settings to Server-VM’s Private IP address.
+**1:** Set the Client-VM’s DNS settings to match the Server-VM’s Private IP address..
   
-**2:** Go to Azure Portal > Client-VM > Networking > Network Interface > Settings > DNS servers > Custom > Add Server's Private IP Address.
+**2:** In the Azure Portal, navigated to: Client-VM > Networking > Network Interface > Settings > DNS servers > toggled to Custom > added the Server's Private IP Address.
 
-**3:** Opened the Windows menu, searched for About your PC, and clicked Advanced system settings.
+**3:** On the Client VM, opened the Windows menu, searched for About your PC, and clicked **Advanced system settings**.
 
-**4:** Went to the Computer Name tab, clicked Change..., toggled the member settings from Workgroup to Domain, typed my domain name, and hit OK.
+**4:** Went to the **Computer Name** tab, clicked Change..., toggled the member settings from Workgroup to **Domain**, typed in my domain name, and hit OK.
 
-**5:** Logged in with the Server’s Admin credentials when the prompt popped up, got the "Welcome to the domain" message, and restarted the PC.
+**5:** Logged in with the Server’s Admin credentials when the domain prompt popped up, received the official "Welcome to the domain" message, and restarted the PC.
 
 <img width="660" height="550" alt="Screenshot 2026-06-11 120848" src="https://github.com/user-attachments/assets/d00d803e-e24f-445a-b5e0-d1571428b7ee" />
 
@@ -192,13 +192,13 @@ while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
   
 **The final test to prove the setup works perfectly is logging into the client computer using one of the random user accounts created by the script.**
   
-**1:** Open the Remote Desktop Connection app on  main computer and entered the Windows 11 Client VM's public IP address.
+**1:** Open the Remote Desktop Connection app on my main computer and entered the Windows 11 Client VM's public IP address.
   
 **2:** When prompted for credentials, typed in the username of one of the script-created users (like mydomain\dogi.cug) and their password to initiate the login.
 
-**3:** Opened the Windows menu, searched for Command Prompt.
+**3:** Opened the Windows menu inside the VM and opened the Command Prompt.
 
-**4:** Open Command Prompt, run (**whoami**), and verified that the command returned ( mydomain\dogi.cug), proving the workstation is fully communicating with our cloud Active Directory server.
+**4:** Ran the whoami command and verified that it successfully returned mydomain\dogi.cug, proving the workstation is fully communicating with our cloud Active Directory server.
 
 
 <img width="862" height="545" alt="Screenshot 2026-06-15 121130" src="https://github.com/user-attachments/assets/f94dc9e3-d50a-4039-ba68-b89532a86397" />
