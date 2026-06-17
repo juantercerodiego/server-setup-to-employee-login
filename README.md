@@ -51,7 +51,7 @@ This project is all about setting up the central "brain" of a company's network.
 
 **3:** Checked the box for **Active Directory Domain Services (AD DS)**, accepted the required features, and hit Install.
 
-**4:** Once the install finished, I clicked the **Yellow Notification Flag** at the top right of the screen and selected Promote this server to a domain controller.
+**4:** Once the install finished, I clicked the **Yellow Notification Flag** at the top right of the screen and selected **Promote this server to a domain controller**.
 
 **5:** Choose **Add a new forest**, named my root domain (like mydomain.com), set a recovery password, and let the wizard finish and reboot the server.
 
